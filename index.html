@@ -1,11 +1,228 @@
-<!-- index.html -->
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
-	<title>경기모바일과학고등학교</title>
-	<meta charset="utf-8">
+	<meta charset="UTF-8">
+	<title>경기모바일과학 고등학교</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
 </head>
 <body>
+	<div class="wrap">
+		<div class="header">
 
+			<div class="slide slide-1">
+				<h1>경기모바일과학 고등학교 블로그</h1>
+				<p>
+					<a href="#" class="btn btn-primary"><i class="fas fa-user-plus"></i> 회원가입</a>
+				</p>
+			</div>
+
+			<div class="slide slide-2">
+				<h1>HTML & CSS 배우기</h1>
+				<p>
+					<a href="#" class="btn btn-success"><i class="fas fa-user-plus"></i> 방과 후 신청</a>
+				</p>
+			</div>
+
+			<div class="slide slide-3">
+				<h1>JavaScript & jQuery 배우기</h1>
+				<p>
+					<a href="#" class="btn btn-info"><i class="fas fa-user-plus"></i> 방과 후 신청</a>
+				</p>
+			</div>
+
+			<div class="slide slide-4">
+				<h1>PHP & Database 배우기</h1>
+				<p>
+					<a href="#" class="btn btn-danger"><i class="fas fa-user-plus"></i> 방과 후 신청</a>
+				</p>
+			</div>
+			<div class="btn-stop" onclick="playStop();">
+				<i class="fas fa-play"></i>
+			</div>
+
+			<div class="left-right">
+				<div class="play-left" data-dir="left">
+					<i class="fas fa-chevron-left"></i>
+				</div>
+				<div class="play-right" data-dir="right">
+					<i class="fas fa-chevron-right"></i>
+				</div>
+			</div>
+
+			
+		</div>
+		<nav>
+			<ul>
+				<li>
+					<a href="#">학과</a>
+					<ul>
+						<li><a href="index.html">홈으로</a></li>
+						<li><a href="major.html">학과 소개</a></li>
+						<li><a href="contents.html">모바일 컨텐츠과</a></li>
+						<li><a href="business.html">모바일 비즈니스과</a></li>
+						<li><a href="design.html">모바일 디자인과</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">학교소식</a>
+					<ul>
+						<li><a href="#">학교행사</a></li>
+						<li><a href="#">공지사항</a></li>
+						<li><a href="#">급식</a></li>
+						<li><a href="#">교원능력개발평가</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">교과서 추가구매</a>
+					<ul>
+						<li><a href="#">HTML & CSS3</a></li>
+						<li><a href="#">JavaScript & jQuery</a></li>
+						<li><a href="# ">PHP & Database</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">마이페이지</a>
+					<ul>
+						<li><a href="#">회원정보</a></li>
+						<li><a href="#">회원정보 수정</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		
+		<!-- main 시작 -->
+		<div class="main">
+			<div class="left">
+
+				<section class="topic">
+					<div>
+						<a href="major.php"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRe6wa0YKlO0ySrbPkfo76cRUu2GKRapxVdum-pU1UtXKVh6jr" alt="topic1"></a>
+						<h4>학과 소개</h4>
+						<p>학교 전공학과를 상세히 소개.</p>
+					</div>
+					<div>
+						<a href="teacher.php"><img src="http://placeimg.com/150/150/people" alt="topic2"></a>
+						<h4>교직원 소개</h4>
+						<p>전공과목,일반과목 별 교직원 소개, 부서등을 소개.</p>
+					</div>
+					<div>
+						<a href="school.php"><img src="https://commerce.mt.gov/portals/90/shared/DOC/images/homepage/MTOTBDIcon.png" alt="topic3"></a>
+						<h4>학교 소개</h4>
+						<p>경기모바일과학 고등학교를 소개합니다.</p>
+					</div>
+				</section>
+
+				<section class="blog">
+					<h2>최신 블로그 리스트</h2>
+						<table class="table">
+							<thead class="thead-dark">
+								<tr>
+									<th>번호</th>
+									<th>제목</th>
+									<th>이름</th>
+									<th>날짜</th>
+								</tr>
+							</thead>
+							<tbody>
+					<!-- <?php
+					$page = 1;
+					if(isset($_GET['page'])){
+						$page = intval($_GET['page']);
+					}
+					if(! $page ) {$page = 1;}
+					$list = 10;
+					$start = ($page - 1) * $list;
+					
+					$total = 0;
+					$sql = "SELECT id, title, writer, wdate FROM blog";
+					if( $rstmp = $db->query($sql) ) {
+						$total = $rstmp->rowCount();
+						unset($rstmp); //메모리에서 삭제
+					}
+						$last = 1;
+					if( $total){
+						$last = ceil($total / $list);//반올림 함수
+					}
+
+					$prev =$page - 1;
+					if($prev < 1){$prev = 1;}
+					$next = $page + 1;
+					if($next > $last){$next = $last;}
+
+					$bloglist = array();//빈 배열 생성
+					$sql .= " limit {$start},{$list}";
+					if($rs = $db->query($sql)){
+						$bloglist = $rs->fetchAll();//fetch DB정보를 배열로 변환
+						//fetch 하나의 행(줄)만 가져옴
+						//fetchAll 모든 행을 가져옴
+					}
+					foreach($bloglist as $blog){ 
+						?> -->
+						<tr>
+							<td><?php echo $blog['id'];?></td>
+							<td class="text-left">
+								<div class="blog-title">
+								<a href="#"><?php echo $blog['title'];?></a>
+								</div>
+							</td>
+							<td><?php echo $blog['writer'];?></td>
+							<td>
+								<?php echo substr($blog['wdate'],0,10);?>
+							</td>
+						</tr>
+<!-- 					<?php
+					} //end foreach
+					?> -->
+							</tbody>
+						</table>
+						
+						<div class="text-center">
+						<a href="index.php?page=<?php echo $prev;?>" class="btn btn-secondary">이전</a>
+						<a href="index.php?page=<?php echo $next;?>" 
+						class="btn btn-secondary">
+							다음</a>
+						</div>
+
+				</section>
+
+			</div>
+			<div class="right">
+				<section>
+					<form action="">
+						<div class="form-group">
+							<input type="text" name="userid" id="userid" placeholder="아이디" required class="form-control">
+						</div>
+						<div class="form-group">
+							<input type="password" name="userpw" id="userpw" placeholder="비밀번호" required class="form-control">
+						</div>
+						<button type="submit" class="btn btn-primary">로그인</button>
+						<a href="#" class="btn btn-secondary">회원가입</a>
+					</form>
+				</section>
+				<section>
+					<iframe width="300" height="200" src="https://www.youtube.com/embed/BRrTam3Is-w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</section>
+				<section>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.541051622274!2d126.89632371571323!3d37.30600967984753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b68eda6885715%3A0xe67ca3c8a1edfb79!2z6rK96riw66qo67CU7J286rO87ZWZ6rOg65Ox7ZWZ6rWQ!5e0!3m2!1sko!2skr!4v1558422150406!5m2!1sko!2skr" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</section>
+			</div>
+		</div>
+		<!-- main 끝 -->
+		
+		<!-- footer 시작 -->
+		<footer>
+			&copy; 이종환 2019 All rights are reserved.
+		</footer>
+		<!-- footer 끝 -->
+
+	</div>
+<!-- wrap 끝 -->
+	
+	<script src="js/jquery-3.4.1.js"></script>
+	<script src="js/app.js"></script>
 </body>
+
 </html>

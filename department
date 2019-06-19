@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="department.css">
+	<title>경기모바일과학고등학교</title>
+</head>
+
+	<body>
+		<header>
+		<div class="container-fluid">
+			
+			<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+				<!-- Brand -->
+				<a class="navbar-brand" href="#">
+					<img src="image/gmsLogo.PNG" alt="gms 로고">
+				</a>
+
+				<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+					
+				</button>
+
+				<div id="collapsibleNavbar">
+					
+					<!-- Links -->
+					<ul class="navbar-nav">
+						<!-- Dropdown -->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+								학과소개
+							</a>
+							<div class="dropdown-menu">
+								<h3 class="dropdown-header text-center">학과</h3>
+								<a class="dropdown-item" href="#">모바일 비즈니스</a>
+								<a class="dropdown-item" href="#">모바일 컨텐츠</a>
+								<a class="dropdown-item" href="#">모바일 그래픽디자인</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+								학사일정
+							</a>
+							<div class="dropdown-menu">
+								<h3 class="dropdown-header text-center">달력</h3>
+								<a class="dropdown-item" href="#">학사일정</a>
+								<a class="dropdown-item" href="#">급식표</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">로그인</a>
+						</li>
+
+						
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<section id="section1">
+			<nav id="department">
+				<p class="mj">학과 소개</p>
+				<h2 id="name"><a href="#"><img src="content.jpg"></a></h2>
+				<h2 id="name"><a href="#"><img src="content.jpg"></a></h2>
+				<h2 id="name"><a href="#"><img src="content.jpg"></a></h2>
+			</nav>
+			<div id="major">
+				<p class="major">학과 소개</p>
+			</div>
+		</section>
+
+	</body>
+</html>

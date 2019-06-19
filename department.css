@@ -1,0 +1,40 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+section {
+	text-align: center;
+	display: inline-block;
+}
+#department {
+	height: 90%;
+	width: 300px;
+	position: absolute;
+	border: solid black 1px;
+	display: inline-block;
+}
+#major {
+	margin-left: 300px; 
+	width: 100%;
+	position: absolute;
+	border: solid black 1px;
+	text-align: center;
+	display: inline-block;
+}
+#name {
+	height: 30%;
+}
+a {
+	text-align: center;
+}
+.mj {
+	font-size: 30px;
+}
+.major {
+	font-size: 30px;
+	text-align: center;
+}
+img {
+	width: 100%;
+	height: 100%;
+}

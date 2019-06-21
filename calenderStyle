@@ -1,0 +1,19 @@
+table{
+	width: 80%;
+	height: 80%;
+	text-align: center;
+}
+tr,td{
+
+		border: solid 1px black;
+		
+	}
+
+	h2{
+		text-align: center;
+	}
+	td{
+		width: 150px;
+
+	}
+

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	<title>경기모바일과학고등학교</title>
+</head>
+
+<body>
+	<div class="container-fluid">
+	
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+		<!-- Brand -->
+		<a class="navbar-brand" href="#">
+			<img src="image/gmsLogo.PNG" alt="gms 로고">
+		</a>
+
+		<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>			
+		</button>
+
+		<div class="justify-content-end collapse navbar-collapse" id="collapsibleNavbar">
+			
+			<!-- Links -->
+			<ul class="navbar-nav">
+				<!-- Dropdown -->
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+						학과소개
+					</a>
+					<div class="dropdown-menu">
+						<h3 class="dropdown-header text-center">학과</h3>
+						<a class="dropdown-item" href="#">모바일 비즈니스</a>
+						<a class="dropdown-item" href="#">모바일 컨텐츠</a>
+						<a class="dropdown-item" href="#">모바일 그래픽디자인</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+						학사일정
+					</a>
+					<div class="dropdown-menu">
+						<h3 class="dropdown-header text-center">달력</h3>
+						<a class="dropdown-item" href="#">학사일정</a>
+						<a class="dropdown-item" href="#">급식표</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">로그인</a>
+				</li>
+
+				
+			</ul>
+		</div>
+	</nav>
+</div>
+	
+	
+</div>
+<div class="container-fluid">
+	<table>
+	<thead>
+		<h2 >6월달</h2>
+<tr>
+
+	<th></th>
+	<th>일</th>
+	<th>월</th>
+	<th>화</th>
+	<th>수</th>
+	<th>목</th>
+	<th>금</th>
+	<th>토</th>
+</tr>
+</thead>
+<tbody>
+	<tr>
+	<th></th>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td>1<br>
+
+	</td>
+</tr>
+</tbody>
+<tfoot>
+	<tr>
+	<th></th>
+	<td>2</td>
+	<td>3<br>
+	보리밥 <br />
+미소된장국 5.6.9.13.<br />
+치커리사과무침 5.6.13.<br />
+생선까스 1.2.5.6.<br />
+깍두기 9.13.<br />
+타르타르소스 1.5.13.<br />
+아이러브요거트딸기 2.<br />
+* 에너지/단백질/칼슘/철분 <br />
+753.4/24.8/353.8/3.2</a></span></td>
+	<td>4<br>
+	찹쌀밥 <br />
+순두부계란탕 1.5.6.9.13.<br />
+삼색나물 <br />
+닭다리구이 2.13.<br />
+총각김치 9.13.<br />
+쥬시쿨(자두맛) 2.<br />
+* 에너지/단백질/칼슘/철분<br />
+672.1/42.9/154.8/4.9</a></span></td>
+	<td>5<br>
+	김치미니우동국 1.5.6.9.13.16.18.<br />
+장조림버터비빔밥 1.2.5.6.10.13.18.<br />
+모짜렐라치즈샐러드 2.12.13.<br />
+깍두기# 9.13.<br />
+캐플쥬스 <br />
+* 에너지/단백질/칼슘/철분<br /> 
+1002.8/35.3/263.5/6.2</a></span></td>
+	<td>6</td>
+		<td>7</td>
+	<td>8</td>
+</tr>
+
+	<tr>
+	<th></th>
+	<td>9</td>
+	<td>10<br>
+	찹쌀밥 <br />
+어묵매운탕 1.5.6.9.13.<br />
+연두부회 5.6.13.<br />
+돈육김치볶음 9.10.13.<br />
+김구이 13.<br />
+육원전/케찹 1.5.6.10.12.<br />
+* 에너지/단백질/칼슘/철분 <br />
+659.1/29/269/7.4</a></span></td>
+	<td>11<br>
+	발아현미밥 <br />
+시금치된장국 5.6.13.<br />
+사과오이초무침 13.<br />
+양념치킨 4.5.6.12.13.<br />
+배추김치 9.13.<br />
+피크닉(청포도맛) 5.<br />
+* 에너지/단백질/칼슘/철분 <br />
+896.3/41/266.9/5.1</a></span></td>
+	<td>12<br>
+	후리가케밥 1.5.9.13.16.<br />
+유부우동국물 5.6.13.<br />
+양상추샐러드 12.<br />
+깍두기 9.13.<br />
+블루베리드레싱 1.5.13.<br />
+미트볼스파게티 1.2.5.6.10.12.13.<br />
+요구르트 2.<br />
+* 에너지/단백질/칼슘/철분 <br />
+984.1/34.6/293.2/7.4</a></span></td>
+	<td>13
+	찹쌀밥 <br>
+쇠고기당면국 5.6.8.13.<br />
+삼치데리야끼 5.6.13.<br />
+도토리묵김치무침 5.6.9.13.<br />
+총각김치 9.13.<br />
+* 에너지/단백질/칼슘/철분<br /> 
+619.2/29.6/140.3/3.9</a></span></td>
+		<td>14<br>
+		기장밥 <br />
+감자미역국 5.6.13.<br />
+콩나물미나리무침 5.13.<br />
+돈육깻잎볶음 5.6.10.13.<br />
+깍두기 9.13.<br />
+구슬아이스크림 1.2.5.<br />
+* 에너지/단백질/칼슘/철분 <br />
+721.6/28.4/601.6/4.9</a></span></td>
+	<td>15</td>
+</tr>
+
+	<tr>
+	<th></th>
+	<td>16</td>
+	<td>17</td>
+	<td>18</td>
+	<td>19</td>
+	<td>20</td>
+		<td>21</td>
+	<td>22</td>
+</tr>
+
+	<tr>
+	<th></th>
+	<td>23</td>
+	<td>24</td>
+	<td>25</td>
+	<td>26</td>
+	<td>27</td>
+		<td>28</td>
+	<td>29</td>
+</tr>
+
+	<tr>
+	<th></th>
+	<td>30</td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+</tr>
+</tfoot>
+</table>
+</div>
+</body>
+</html>
